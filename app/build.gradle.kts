@@ -54,4 +54,8 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.tooling)
     implementation(libs.bundles.room)
     ksp(libs.room.compiler)
+    implementation(libs.compose.icons)
+    implementation(libs.lifecycle.viewmodel.compose)
+    implementation(libs.lifecycle.runtime.compose)
+    implementation(libs.navigation.compose)
 }
