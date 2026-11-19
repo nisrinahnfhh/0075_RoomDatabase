@@ -16,4 +16,3 @@ class DetailViewModel (
                 started = SharingStarted.WhileSubscribed(stopTimeoutMillis = TIMEOUT_MILLIS),
                 initialValue = DetailSiswaUiState()
             )
-    suspend fun deleteSiswa(){
