@@ -18,6 +18,12 @@ object PenyediaViewModel {
             EntryViewModel(aplikasiSiswa().container.repositoriSiswa)
         }
 
+        //edit : tambah initializer untuk DeatailViewModel dan EditViewModel
+        initializer {
+            DetailViewModel(savedStateHandle = this.createSavedStateHandle(),
+                aplikasiSiswa().container.repositoriSiswa )
+        }
+
     }
 }
 
